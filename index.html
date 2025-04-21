@@ -1,0 +1,168 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Foodie Express - Fast & Fresh Meals Delivered</title>  
+    <link rel="stylesheet" href="foodie.css">  
+    <script src="foodie.js" defer></script>  
+</head>  
+<body>  
+    <header>
+        <div class="container">
+            <h1 class="logo">Food<span>Express</span></h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Home Section -->
+    <section>
+        <div class="banner-slider" id="home">
+            <div class="slider">
+                <div class="slide" style="background-image: url('image/cardP15.jpg');"></div>
+                <div class="slide" style="background-image: url('image/cardP16.jpg');"></div>
+                <div class="slide" style="background-image: url('image/cardP17.jpg');"></div>
+            </div>
+            <div class="overlay">
+                <p class="tagline">"Fast, Fresh, and Right at Your Doorstep!"</p>
+                <input type="text" placeholder="Search for food..." class="search-box">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2>About FoodExpress</h2>
+            <h2> "Fast, Fresh, and Right at Your Doorstep!"</h2>
+            <p>FoodExpress is your go-to platform for fast, fresh, and reliable food delivery. We partner with top restaurants to bring your favorite meals straight to your doorstep, ensuring quality and convenience with every order. Experience seamless ordering, real-time tracking, and exclusive deals—all in one place!</p>
+            <div class="buttons">
+                <a href="#order" class="btn">Free Delivery</a>
+                <a href="#order" class="btn">Fast Delivery</a>
+                <a href="#order" class="btn">Home Delivery</a>
+                <a href="#fast-delivery" class="btn">Order Now</a>
+            </div>
+        </div>
+        <img src="image/aboutp.jpg" alt="Food Delivery">
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog">
+        <div class="blog-container">
+            <img src="image/blog.jpg" alt="Food Image" class="blog-image">
+            <h2>Welcome to the FoodExpress Blog</h2>
+            <p class="blog-content">
+                Stay updated with the latest food trends, exciting recipes, and insider tips on the best restaurants.
+                <span id="more-text" class="hidden"> Our blog brings you expert recommendations, food hacks, and exclusive interviews with top chefs. Discover new flavors and enhance your dining experience with FoodExpress!</span>
+            </p>
+            <button class="read-more" onclick="toggleText()">Read More</button>
+        </div>
+    </section>
+
+    <!-- Product Section -->
+    <div class="best">
+        <h1> Our Best Meals</h1> 
+    </div>
+    <section class="products">
+        <!-- Example Card -->
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div>  
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div> 
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div> 
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div> 
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div> 
+        <div class="card">  
+            <img src="image/cardP1.jpg" alt="Food Item 1">
+            <h2>Delicious Cake</h2>  
+            <p>Sweet, smooth, and oh-so-good!</p>
+            <h3>Rs. 199</h3>
+            <button class="buy-now">Buy Now</button>  
+        </div> 
+    </section>
+
+    <!-- Footer -->
+    <section id="contact">
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Reservation</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <div class="contact-info">
+                        <p>Okhla Delhi 110025</p>
+                        <p>+918791253163</p>
+                        <p>danishday2017@gmail.com</p>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Opening Hours</h3>
+                    <div class="contact-info">
+                        <p>Monday - Saturday: 9AM - 9PM</p>
+                        <p>Sunday: 10AM - 8PM</p>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2025 FoodExpress. All rights reserved.</p>
+        </footer>
+    </section>  
+
+    <!-- Service Worker Registration -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(function (registration) {
+                        console.log('Service Worker registered with scope:', registration.scope);
+                    })
+                    .catch(function (error) {
+                        console.log('Service Worker registration failed:', error);
+                    });
+            });
+        }
+    </script>
+</body>  
+</html>
